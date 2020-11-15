@@ -1,0 +1,210 @@
+.background-image{
+    width: 100%;
+}
+
+.container{
+    position: relative;
+}
+
+.brand{
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    font-size: 2rem;
+}
+
+.brand span{
+    color: red;
+}
+
+.help{
+    position: absolute;
+    top: 3.5%;
+    right: 5%;
+    display: flex;
+    font-size: 1.5rem;
+
+}
+
+.help button{
+    height: 30px;
+    margin: auto 20px;
+}
+
+
+.search-bar{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.search-bar p{
+    font-size: 30px;
+    margin: 0;
+}
+
+.search-bar h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.search-bar input{
+    width: 900px;
+    font-size: 40px;
+}
+
+.promotable{
+    width: 100%;
+
+}
+
+.promotable p{
+    font-size: 30px;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+input{
+    width: 70%;
+}
+
+.promopic{
+    float: right;
+}
+
+.promo{
+    border: solid;
+    padding: 10px;
+
+}
+
+.bottom-container{
+    width: 100%;
+    display: flex;
+}
+
+.category{
+    width: 30%;
+
+}
+
+.category span{
+    font-size: 35px;
+}
+
+
+
+
+.icon-pic{
+    width: 50%;
+}
+
+
+
+
+
+.more-button{
+    border: solid;
+    background-color: gray;
+    border-radius: 15px;
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+
+
+.down-contain{
+    padding: 0 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-contain{
+    text-align: left;
+    width: 70%;
+    font-size: 2rem;
+    margin: 5%;
+}
+
+.product-contain span{
+    color: red;
+}
+
+.other{
+    width: 100%;
+    text-align: center;
+}
+
+.product-tab{
+    border: solid;
+    text-align: center;
+}
+
+.product-tab button{
+    text-align: right;
+}
+
+.card-product{
+    padding: 15px;
+    position: relative;
+  }
+  .card-product img{
+    width: 100%;
+  }
+  .card-product .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .flex button{
+    height: fit-content;
+    margin: auto 0;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  .price p:first-child {
+    text-decoration: line-through;
+    color: red;
+  }
+  .promotion{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255,165,0,.7);
+    padding: 5px;
+    border-radius: 5px;
+  }
